@@ -1,4 +1,5 @@
 language: python
 python: "3.5"
-script: python3 testrpn.py
+script:
+        -python test_rpn.py
 sudo: enabled
