@@ -12,8 +12,8 @@ operators = {
 
 def  calculate(myarg):
     stack = list()
-    tokens = arg.split()
-    for token in myarg.split():
+    tokens = myarg.split()
+    for token in tokens:
         try:
             token = int(token)
             stack.append(token)
