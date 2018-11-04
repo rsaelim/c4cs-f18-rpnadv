@@ -1,8 +1,4 @@
 language: python
 python: "3.5"
-script: testrpn.py
+script: python3 testrpn.py
 sudo: enabled
-script:
-        - python -m unittest discover
-        - coverage run --source= -m unittest discover
-after_success: coveralls
