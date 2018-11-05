@@ -3,7 +3,7 @@ python: "3.5"
 install:
         pip install coveralls
 script: 
-        make test
-        coverage run --source= -m unittest discover
+        coverage make test
+      
 sudo: enabled
 
