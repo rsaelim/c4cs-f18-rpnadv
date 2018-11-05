@@ -39,7 +39,7 @@ def main():
             result = colored(result, 'red', attrs=['bold'])
         elif result > 25:
             result = colored(result, 'green', attrs=['blink'])
-        else
+        else:
             result = colored(result, 'yellow', attrs=['underline'])
         print(result)
 
